@@ -45,12 +45,12 @@ public class Usuario implements UserDetails {
 
     @Override
     public String getPassword() {
-        return getPassword();
+        return this.password;
     }
 
     @Override
     public String getUsername() {
-        return getLogin();
+        return this.login;
     }
 
     @Override
